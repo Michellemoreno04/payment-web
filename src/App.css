@@ -1,0 +1,94 @@
+.web-container{
+  margin: 50px;
+  
+}
+.cards-container{
+  display: flex;
+  
+}
+.monto{
+  display: block;
+}
+.cards{
+  display: flex;
+  width: 35px;
+  height: 15px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -5px;
+}
+.card-number{
+  width: 300px;
+  height: 35px;
+  margin-right: 10px;
+}
+.expiration{
+  width: 150px;
+  height: 35px;
+  margin-right: 10px;
+}
+.security-code{
+  width: 150px;
+  height: 35px;
+  margin-right: 10px;
+}
+.name{
+  width: 305px;
+  height: 35px;
+  margin-right: 10px;
+}
+.last-name{
+  width: 305px;
+  height: 35px;
+  margin-right: 10px;
+}
+.address{
+  width: 400px;
+  height: 35px;
+  margin-right: 10px;
+}
+.btn{
+ 
+  width: 200px;
+  height: 35px;
+  background-color: rgb(76, 76, 241);
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+color: white;
+
+}
+.btn:hover{
+  background-color: rgb(42, 42, 244);
+  border: none;
+  font-size: 15px;
+}
+.regresiva{
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+
+}
+.regresiva p{
+  color: red;
+  font-size: 20px;
+  margin: 0;
+}
+/**********************************cellphone****************************/
+@media (max-width: 1024px) {
+  .address{
+    width: 305px;
+    margin-bottom: 5px;
+  }
+.security-code{
+  margin-top: 5px;
+  width: 133px;
+}
+.last-name{
+  margin-top: 5px;
+}
+
+}
+
